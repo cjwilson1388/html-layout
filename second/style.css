@@ -1,0 +1,45 @@
+/* CSS FILE */
+
+html body {
+	position: relative;
+}
+
+
+#left {	
+	height: 100vh;
+	width: 33%;
+	float: left; 
+	clear: left;
+	background-color: #4A90E2;
+	overflow: hidden;
+}
+
+#middle {
+	width: 33%;
+	height: 100vh;
+	float: left;
+	clear: none;
+	background-color: #50e3c2;
+	overflow: hidden;
+
+}
+
+#right {
+	width: 33%;
+	height: 100vh;
+	float: left;
+	clear: right;
+	background-color: #B8E986;
+	overflow: hidden;
+
+}
+
+
+
+#right img {
+    width: 100%;
+    height: 20%;
+    float: right;
+    margin-right: 0px;
+    padding-top: 80vh;
+}

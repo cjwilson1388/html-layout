@@ -1,0 +1,31 @@
+/*************
+Skeleton css project 1
+
+=====================
+
+*********************/
+
+
+
+
+
+body {
+	position: relative;
+	background-color: #d8d8d8;
+
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #444444;
+	position: absolute;
+}
+
+.wrapper {
+	margin-right: 16.5%;
+	margin-left: 16.5%;
+	height: 100%;
+	background-color: #ffffff;
+	postion: fixed;
+}
