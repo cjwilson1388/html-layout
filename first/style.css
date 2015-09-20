@@ -1,31 +1,35 @@
-/*************
-Skeleton css project 1
-
-=====================
-
-*********************/
-
-
-
-
-
 body {
-	position: relative;
-	background-color: #d8d8d8;
-
+	background-color: rgb(216, 216, 216);
 }
 
 header {
-	height: 100px;
-	width: 100%;
-	background-color: #444444;
-	position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    position: absolute;
 }
+
 
 .wrapper {
 	margin-right: 16.5%;
 	margin-left: 16.5%;
-	height: 100%;
+}
+
+.main {
+	max-height: 1200px;
+	min-height: 600px;
+	width: 100%;
 	background-color: #ffffff;
-	postion: fixed;
+	position: inherit;
+	display: block;
+
+}
+.bottom {
+	bottom: 0px;
+    background-color: rgb(68, 68, 68);
+    margin-left: 1px;
+    width: 66%;
+    height: 80px;
+    display: block;
+    position: absolute;
 }
